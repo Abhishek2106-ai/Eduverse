@@ -6,8 +6,8 @@ Eduverse is a full-stack **MERN-based EdTech platform** that enables users to cr
 
 ## 🌐 Live Demo
 
-* Frontend: https://your-frontend-link.vercel.app
-* Backend: https://your-backend-link.onrender.com
+* Frontend: https://eduverse-nu-sage.vercel.app
+* Backend: https://eduverse-backend.onrender.com
 
 ---
 
