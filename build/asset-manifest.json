@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.99d189e4.css",
-    "main.js": "/static/js/main.92c4216c.js",
+    "main.css": "/static/css/main.b0572d92.css",
+    "main.js": "/static/js/main.d409e864.js",
     "static/media/banner.mp4": "/static/media/banner.8e687823b1422880cc3f.mp4",
     "static/media/rzp_logo.png": "/static/media/rzp_logo.b70d7176888164131609.png",
     "static/media/Logo-Full-Dark.png": "/static/media/Logo-Full-Dark.a723a25e8716cbf45067.png",
@@ -24,11 +24,11 @@
     "static/media/Logo3.svg": "/static/media/Logo3.0a56f78fead602f0d54c55ddcdf7e616.svg",
     "static/media/Logo4.svg": "/static/media/Logo4.5da4c6e0c53e6745b25529891ef82458.svg",
     "index.html": "/index.html",
-    "main.99d189e4.css.map": "/static/css/main.99d189e4.css.map",
-    "main.92c4216c.js.map": "/static/js/main.92c4216c.js.map"
+    "main.b0572d92.css.map": "/static/css/main.b0572d92.css.map",
+    "main.d409e864.js.map": "/static/js/main.d409e864.js.map"
   },
   "entrypoints": [
-    "static/css/main.99d189e4.css",
-    "static/js/main.92c4216c.js"
+    "static/css/main.b0572d92.css",
+    "static/js/main.d409e864.js"
   ]
 }

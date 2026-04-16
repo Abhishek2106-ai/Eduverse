@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:5000/api/v1";
+export const BASE_URL = "http://https://your-backend-name.onrender.com/api/v1";
 // AUTH ENDPOINTS
 export const endpoints = {
   SENDOTP_API: BASE_URL + "/auth/sendotp",
@@ -45,7 +45,7 @@ export const courseEndpoints = {
 
 // RATINGS AND REVIEWS
 export const ratingsEndpoints = {
-REVIEWS_DETAILS_API: "http://localhost:5000/api/v1/course/getAllCourses",
+REVIEWS_DETAILS_API: "http://https://your-backend-name.onrender.com/api/v1/course/getAllCourses",
 }
 
 // CATAGORIES API

@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState, useRef } from "react"
-import { ReactMarkdown } from "react-markdown/lib/react-markdown"
+import ReactMarkdown from "react-markdown"
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate, useParams } from "react-router-dom"
 
@@ -85,7 +85,7 @@ function CourseDetails() {
   // 🤖 AI SUMMARY
   const getSummary = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/v1/ai/chat", {
+      const res = await fetch("http://https://your-backend-name.onrender.com/api/v1/ai/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -102,7 +102,7 @@ function CourseDetails() {
   // 🤖 AI QUIZ
   const generateQuiz = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/v1/ai/chat", {
+      const res = await fetch("http://https://your-backend-name.onrender.com/api/v1/ai/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -119,7 +119,7 @@ function CourseDetails() {
   // 🤖 NEW: EXPLAIN COURSE
   const explainCourse = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/v1/ai/chat", {
+      const res = await fetch("http://https://your-backend-name.onrender.com/api/v1/ai/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

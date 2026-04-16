@@ -48,7 +48,7 @@ export const fetchCourseDetails = async (courseId) => {
 
   try {
     // 🔥 HARD-CODED URL (to avoid BASE_URL mistakes)
-    const FINAL_URL = "http://localhost:5000/api/v1/course/getCourseDetails";
+    const FINAL_URL = "http://https://your-backend-name.onrender.com/api/v1/course/getCourseDetails";
 
     console.log("API URL:", FINAL_URL);
     console.log("Course ID:", courseId);

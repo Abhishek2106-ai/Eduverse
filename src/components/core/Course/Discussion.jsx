@@ -10,7 +10,7 @@ export default function Discussion() {
   // Load questions
   const fetchQuestions = async () => {
     const res = await axios.get(
-      `http://localhost:5000/api/v1/discussion/get?courseId=${courseId}`
+      `https://your-backend-name.onrender.com/api/v1/discussion/get?courseId=${courseId}`
     );
     setList(res.data.data);
   };
@@ -22,7 +22,7 @@ export default function Discussion() {
   const addQuestion = async () => {
     if (!question) return;
 
-    await axios.post("http://localhost:5000/api/v1/discussion/add", {
+    await axios.post("https://your-backend-name.onrender.com/api/v1/discussion/add", {
       courseId,
       question,
     });

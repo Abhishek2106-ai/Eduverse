@@ -93,7 +93,7 @@ export default function AIChat() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/v1/ai/chat",
+        "https://your-backend-name.onrender.com",
         { message: finalMsg },
         { timeout: 60000 }
       );
