@@ -55,7 +55,7 @@ Eduverse is a modern full-stack e-learning platform that enables users to explor
 
 ### 📚 About us
 
-![About us](./screenshots/About us.png)
+![About us](./screenshots/aboutus.png)
 
 ---
 
