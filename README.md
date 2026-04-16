@@ -1,172 +1,134 @@
-# 🚀 Eduverse – AI-Powered Learning Platform
+# 🚀 Eduverse – Full Stack Learning Platform
 
-Eduverse is a full-stack **MERN-based EdTech platform** that enables users to create, explore, and enroll in courses with an integrated **AI assistant**, secure payments, and a modern dashboard experience.
+Eduverse is a modern full-stack e-learning platform that enables users to explore courses, track progress, and purchase premium content. It is built using the MERN stack with a clean UI and scalable backend.
 
 ---
 
 ## 🌐 Live Demo
 
-* Frontend: https://eduverse-nu-sage.vercel.app
-* Backend: https://eduverse-backend.onrender.com
+* 🔗 Frontend: https://eduverse-nu-sage.vercel.app
+* 🔗 Backend: https://eduverse-backend.onrender.com
 
 ---
 
-## 📌 Features
+## ✨ Features
 
-### 🔐 Authentication
-
-* Secure Signup & Login (JWT-based)
-* Role-based access (Student / Instructor)
-
-### 🎓 Course System
-
-* Create, edit, and manage courses
-* Enroll in courses
-* Track course progress
-
-### 💳 Payments
-
-* Razorpay integration for secure transactions
-
-### 📊 Dashboard
-
-* Student dashboard (enrolled courses, progress)
-* Instructor dashboard (course management, analytics)
-
-### 🤖 AI Assistant (Ollama)
-
-* Chat-based AI for:
-
-  * Course explanation
-  * Quiz generation
-  * Topic summarization
-
-### 🌙 UI/UX
-
-* Fully responsive design
-* Dark/Light mode support
-* Clean and modern UI with Tailwind CSS
-
-### 💬 Additional Features
-
-* Discussion system
-* Saved courses
-* Notifications
-* Analytics dashboard
+* 👤 User Authentication (Login/Signup)
+* 🎓 Browse & Enroll in Courses
+* 📊 Dashboard for Students & Instructors
+* 💳 Secure Payments (Razorpay Integration)
+* 🧠 Course Creation & Management
+* 🌙 Dark/Light Mode UI
+* ⚡ Responsive & Fast UI
+* 🤖 AI Assistant (Ollama)
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
+**Frontend:**
 
 * React.js
 * Redux Toolkit
 * Tailwind CSS
 
-### Backend
+**Backend:**
 
 * Node.js
 * Express.js
 
-### Database
+**Database:**
 
-* MongoDB (Mongoose)
-
-### Other Tools
-
-* Razorpay (Payments)
-* Cloudinary (Media Upload)
-* Ollama (Local AI Model)
+* MongoDB Atlas
 
 ---
 
-## 📁 Project Structure
+## 📸 Screenshots
 
-```
-Eduverse/
-├── src/              # Frontend (React)
-├── server/           # Backend (Node/Express)
-├── public/
-├── package.json
-```
+### 🏠 Home Page
 
----
+![Home](./screenshots/home.png)
 
-## ⚙️ Environment Variables
+### 📊 Signup
 
-### Backend (`server/.env`)
+![Signup](./screenshots/Signup.png)
 
-```
-MONGO_URI=
-JWT_SECRET=
-CLOUD_NAME=
-API_KEY=
-API_SECRET=
-RAZORPAY_KEY=
-RAZORPAY_SECRET=
-MAIL_HOST=
-MAIL_USER=
-MAIL_PASS=
-```
+### 📚 About us
+
+![About us](./screenshots/About us.png)
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
 
-```
-git clone https://github.com/your-username/eduverse.git
-cd eduverse
+```bash
+git clone https://github.com/Abhishek2106-ai/Eduverse.git
+cd Eduverse
 ```
 
 ### 2️⃣ Install dependencies
 
-```
+```bash
 npm install
 cd server && npm install
 ```
 
-### 3️⃣ Run the project
+### 3️⃣ Setup Environment Variables
 
+Create `.env` in server:
+
+```env
+MONGO_URI=your_mongodb_url
+JWT_SECRET=your_secret
+RAZORPAY_KEY=your_key
+RAZORPAY_SECRET=your_secret
 ```
-# Backend
-cd server
-npm run dev
 
-# Frontend
+---
+
+### 4️⃣ Run project
+
+```bash
+# backend
+cd server
+npm start
+
+# frontend
 cd ..
 npm start
 ```
 
 ---
 
-## 📸 Screenshots
+## 📁 Project Structure
 
-![Home](images/mainpage.png)
-
----
-
-## 🧠 Future Improvements
-
-* Real-time chat & notifications
-* Advanced analytics dashboard
-* AI recommendations system
-* Mobile app version
+```bash
+Eduverse/
+ ├── src/        # Frontend
+ ├── server/     # Backend
+ ├── screenshots/
+ ├── package.json
+ └── README.md
+```
 
 ---
 
-## 🤝 Contributing
+## 🚀 Future Improvements
 
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+* 🔔 Notifications system
+* 🤖 AI-based course recommendations
+* 📱 Mobile responsiveness enhancements
 
 ---
 
 ## 👨‍💻 Author
 
-Abhishek Singh
+**Abhishek Singh**
 
 ---
 
-⭐ If you like this project, give it a star!
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
