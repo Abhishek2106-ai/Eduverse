@@ -13,14 +13,22 @@ Eduverse is a modern full-stack e-learning platform that enables users to explor
 
 ## ✨ Features
 
-* 👤 User Authentication (Login/Signup)
-* 🎓 Browse & Enroll in Courses
-* 📊 Dashboard for Students & Instructors
-* 💳 Secure Payments (Razorpay Integration)
-* 🧠 Course Creation & Management
-* 🌙 Dark/Light Mode UI
-* ⚡ Responsive & Fast UI
-* 🤖 AI Assistant (Ollama)
+* 👤 **Authentication System** → Secure login/signup with JWT
+* 🎓 **Course Platform** → Browse, enroll, and manage courses
+* 📊 **Dashboard** → Track progress and manage learning
+* 💳 **Razorpay Integration** → Secure online payments
+* 🧠 **Instructor Panel** → Create and manage courses
+* 🌙 **Modern UI** → Responsive design with clean interface
+* 🤖 **AI Assistant (Ollama)** -> Explain,Quiz and Summarize the courses
+
+---
+
+## 🧠 Project Highlights
+
+* Built using **MERN Stack (MongoDB, Express, React, Node.js)**
+* Real-world project with **authentication + payments**
+* Designed for **scalability and production deployment**
+* Demonstrates **full-stack development skills**
 
 ---
 
